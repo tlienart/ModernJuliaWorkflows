@@ -1,21 +1,0 @@
-julia> julia> 2julia> 2+julia> 2+2julia> 2+2
-4
-
-julia> julia> julia> @julia> @tjulia> @tijulia> @timjulia> @timejulia> @time julia> @time 1julia> @time 1+julia> @time 1+1julia> @time 1+1
-  0.000001 seconds
-2
-
-julia> julia> (scripts) pkg> st(scripts) pkg> st
-Status `~/Work/GitHub/ModernJuliaWorkflows/_assets/scripts/Project.toml`
-  [7876af07] Example v0.5.3
-
-(scripts) pkg> add Example(scripts) pkg> add Example
-   Resolving package versions...
-  No Changes to `~/Work/GitHub/ModernJuliaWorkflows/_assets/scripts/Project.toml`
-  No Changes to `~/Work/GitHub/ModernJuliaWorkflows/_assets/scripts/Manifest.toml`
-
-(scripts) pkg> st(scripts) pkg> st
-Status `~/Work/GitHub/ModernJuliaWorkflows/_assets/scripts/Project.toml`
-  [7876af07] Example v0.5.3
-
-(scripts) pkg> julia> julia> ejulia> exjulia> exijulia> exitjulia> exit()julia> exit()julia> exit()

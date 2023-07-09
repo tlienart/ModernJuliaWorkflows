@@ -47,11 +47,8 @@ juliaup status
 
 * [REPL](https://docs.julialang.org/en/v1/stdlib/REPL/)
 
-\input{julia}{/_assets/scripts/pkgmode.replin}
-```julia:pkgmode
-run(`cat "./_assets/scripts/output/pkgmode.out"`)
-```
-\show{pkgmode}
+\fig{/_assets/scripts/output/pkgmode.gif}
+\fig{/_assets/scripts/output/helpmode.gif}
 
 ## Editors
 

@@ -39,8 +39,11 @@ jobs:
     #   Julia packages which may be required to successfully build your site.
     #   The last line should be `optimize()` though you may want to give it
     #   specific arguments, see the documentation or ?optimize in the REPL.
+    - run: pip3 install asciinema
+    - run: julia -e 'using Pkg; Pkg.activate("."); Pkg.instantiate()';
+    - run: cd ./_assets/scripts; bash ./generate_results.sh; cd ../..;
     - run: julia -e '
-            using Pkg; Pkg.activate("."); Pkg.instantiate();
+            using Pkg; Pkg.activate(".");
             using NodeJS; run(`$(npm_cmd()) install highlight.js`);
             using Franklin;
             optimize(clear=true, suppress_errors=false, fail_on_warning=true)'
