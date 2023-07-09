@@ -43,7 +43,17 @@ If you want an overview of the channels installed on your computer, just use
 juliaup status
 ```
 
-## Development environments
+## REPL
+
+* [REPL](https://docs.julialang.org/en/v1/stdlib/REPL/)
+
+\input{julia}{/_assets/scripts/pkgmode.replin}
+```julia:pkgmode
+run(`cat "./_assets/scripts/output/pkgmode.out"`)
+```
+\show{pkgmode}
+
+## Editors
 
 * [VSCode](https://code.visualstudio.com/) / [VSCodium](https://vscodium.com/) + [Julia VSCode extension](https://www.julia-vscode.org/)
 * [emacs](https://www.gnu.org/software/emacs/) / [vim](https://www.vim.org/) / other IDEs + [JuliaEditorSupport](https://github.com/JuliaEditorSupport)
@@ -52,7 +62,6 @@ juliaup status
 
 ## Running code
 
-* [REPL](https://docs.julialang.org/en/v1/stdlib/REPL/)
 * [Revise.jl](https://github.com/timholy/Revise.jl)
 * [running in VSCode](https://www.julia-vscode.org/docs/stable/userguide/runningcode/)
 * startup file
@@ -77,13 +86,13 @@ juliaup status
 * [Debugger.jl](https://github.com/JuliaDebug/Debugger.jl)
 * [debugging in VSCode](https://www.julia-vscode.org/docs/stable/userguide/debugging/)
 
+## Getting help
+
+* [StartHere.jl](https://github.com/JuliaCommunity/StartHere.jl)
+* [community spaces](https://julialang.org/community/)
+
 ## Other languages
 
 * [C and Fortran](https://docs.julialang.org/en/v1/manual/calling-c-and-fortran-code/)
 * [CondaPkg.jl](https://github.com/cjdoris/CondaPkg.jl) + [PythonCall.jl](https://github.com/cjdoris/PythonCall.jl)
 * [JuliaInterOp](https://github.com/JuliaInterop) ([RCall.jl](https://github.com/JuliaInterop/RCall.jl), [Cxx.jl](https://github.com/JuliaInterop/Cxx.jl))
-
-## Getting help
-
-* [StartHere.jl](https://github.com/JuliaCommunity/StartHere.jl)
-* [community spaces](https://julialang.org/community/)
